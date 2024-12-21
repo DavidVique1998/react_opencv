@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+canvas {
+  display: block;
+}
+
+div[ref="containerRef"] {
+  background-color: black;
+  position: relative;
+}
+

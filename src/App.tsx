@@ -1,7 +1,7 @@
 import './App.css'
 import cv from "@techstark/opencv-js"
 import { useEffect } from 'react'
-import CameraOpenCV from './components/CameraOpenCV'
+import CornerSelector from './components/CornerSelector'
 
 function App() {
 
@@ -15,10 +15,7 @@ function App() {
 
   return (
     <>
-      <div>
-      <h1>React con OpenCV.js</h1>
-      <CameraOpenCV />
-    </div>
+      <CornerSelector />
     </>
   )
 }
